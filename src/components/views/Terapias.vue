@@ -6,7 +6,7 @@
                     <h1>Acupuntura e Ventosas</h1>
                 </div>
                 <div class="col-md-6 mb-3">
-                    <img src="../../assets/ventosas.jpg" class="img-fluid">
+                    <img src="../../../public/img/ventosas.jpg" class="img-fluid">
                 </div>
                 <div class="col-md-6">
                     <h5>Benefícios da Acupuntura e das ventosas</h5>
@@ -34,7 +34,7 @@
                     </ul>
                 </div>
                 <div class="col-md-6 mb-3">
-                    <img src="../../assets/cone-chines.jpg" class="img-fluid mt-2">
+                    <img src="../../../public/img/cone-chines.jpg" class="img-fluid mt-2">
                 </div>
             </div>
         </div>

@@ -1,7 +1,7 @@
 <template>
     <nav class="navbar navbar-expand-lg navbar-lirio">
         <div class="container">
-            <img class="logo" src="../../assets/logo.png">
+            <img class="logo" src="../../../public/img/logo.png">
             <button type="button" class="btn btn-success" @click="entrarEmContato()">
                 <i class="fa-brands fa-whatsapp"></i> Entrar em contato
             </button>
