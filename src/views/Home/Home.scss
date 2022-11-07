@@ -1,0 +1,40 @@
+@import '../../variaveis scss/variaveis.scss';
+
+body {
+    overflow-x: hidden;
+}
+
+.home {
+    text-align: $centro;
+    background: rgb(222,222,222);
+    background: linear-gradient(177deg, rgba(222,222,222,1) 0%, rgba(176,176,176,1) 51%, rgba(148,148,148,1) 100%);
+    filter: drop-shadow(16px 3px 10px $preto);
+
+    img {
+        filter: drop-shadow(8px 8px 10px $amarelo_claro);
+        filter: contrast(180%);
+    }
+
+    h3 {
+        font-size: 110px;
+        margin-top: 2rem;
+        font-weight: $negrito;
+        text-shadow: 2px 2px $amarelo_claro;
+        color: $preto;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-style: italic;
+        
+    }
+}
+
+.texto-home {
+
+    background-color: $amarelo_claro;
+    padding: $padding;
+
+    h2 {
+        text-align: $centro;
+        font-weight: $negrito;
+        color: $preto;
+    }
+}

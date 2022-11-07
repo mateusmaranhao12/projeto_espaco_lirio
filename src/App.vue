@@ -1,22 +1,19 @@
 <template>
   <div>
-    <topo></topo>
-    <conteudo></conteudo>
-    <footer></footer>
+    <Header></Header> <!--Header-->
+    <router-view></router-view> <!--Rotas-->
   </div>
 </template>
 
 <script>
 
-  import Conteudo from '@/components/layouts/Conteudo.vue'
-  import Topo from '@/components/layouts/Topo.vue'
+  import Header from '@/components/Header/Header.vue'
 
   export default {
     name: 'App',
 
     components: {
-      Conteudo,
-      Topo
+      Header
     }
   }
 </script>

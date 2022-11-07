@@ -1,0 +1,77 @@
+@import '../../Variaveis scss/variaveis.scss';
+
+body{
+    min-height: 100vh;
+    background-attachment: fixed;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bg-navbar {
+    background: $cinza_gradient;
+}
+
+.navbar-toggler{
+    border: 1px solid $preto;
+    margin: $margins;
+}
+
+.navbar-brand {
+
+    img {
+        height: 150px;
+    }
+
+    img:hover {
+        transform: scale(1.2);
+    }
+}
+
+.navbar-site {
+
+    .navbar-nav {
+
+        .nav-link{
+            background-image: linear-gradient(
+                to right,
+                $amarelo_claro,
+                $amarelo_claro 50%,
+                $branco 50%
+            );
+            background-size: 200% 100%;
+            background-position: -100%;
+            display: inline-block;
+            //padding: 5px 0;
+            position: relative;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            transition: all 0.3s ease-in-out;
+
+            color: $branco;
+            font-weight: $negrito;
+            text-transform: $maiusculo;
+            padding: 1.2rem;
+        }
+
+        .nav-link:before {
+            content: '';
+            background: $amarelo_claro;
+            display: block;
+            position: absolute;
+            bottom: -3px;
+            left: 0;
+            width: 0;
+            height: 3px;
+            transition: all 0.3s ease-in-out;
+          }
+
+        .nav-link:hover {
+        background-position: 0;
+        }
+          
+        .nav-link:hover::before {
+            width:100%;
+        }
+
+    }
+
+}
