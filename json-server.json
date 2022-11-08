@@ -1,0 +1,12 @@
+{
+
+  "o_que_temos": [
+      {"id": "1", "item": "Acupuntura"},
+      {"id": "2", "item": "Cone Chinês"},
+      {"id": "3", "item": "Auriculoterapia"},
+      {"id": "4", "item": "Ventosas"},
+      {"id": "5", "item": "Quick Massagem"},
+      {"id": "6", "item": "Curso de Autoconhecimento"}
+  ]
+
+}

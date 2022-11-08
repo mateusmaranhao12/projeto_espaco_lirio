@@ -5,8 +5,8 @@
                 <div class="col-md-4">
                     <div class="redes-sociais">
                         <h5>Redes Sociais</h5>
-                        <button @click="getInstagram()" class="btn btn-warning"><i class="fa-brands fa-instagram"></i></button>
-                        <button @click="getFacebook()" class="btn btn-primary"><i class="fa-brands fa-facebook"></i></button>
+                        <button @click="getInstagram()" class="btn btn-warning"><i class="fa-brands fa-instagram"></i> Instagram</button>
+                        <button @click="getFacebook()" class="btn btn-primary"><i class="fa-brands fa-facebook"></i> Facebook</button>
                     </div>
                 </div>
                 <div class="col-md-4">
