@@ -2,6 +2,7 @@
 
 body {
     overflow-x: hidden;
+    -webkit-overflow-x: hidden;
 }
 
 .home {
@@ -13,6 +14,7 @@ body {
     img {
         filter: drop-shadow(8px 8px 10px $amarelo_claro);
         filter: contrast(180%);
+        border-radius: $border-radius;
     }
 
     h3 {

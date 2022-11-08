@@ -1,0 +1,72 @@
+@import '../../variaveis scss/variaveis.scss';
+
+footer {
+    background: $cinza_gradient;
+    filter: drop-shadow(16px 5px 10px $preto);
+
+    .redes-sociais {
+
+        padding: $padding;
+        text-align: $centro;
+    
+        h5 {
+            color: $preto;
+            text-shadow: 1px 1px $amarelo_claro;
+            text-transform: $maiusculo;
+            font-weight: $negrito;
+        }
+    
+        .btn {
+            margin: 10px;
+        }
+    
+        .btn-warning {
+            background: #f09433; 
+            background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+            background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+            background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+            border: none;
+            color: $branco;
+        }
+    
+        .btn-warning:hover {
+            background: #e6683c;
+            background: -moz-linear-gradient(45deg, #682804 0%, #8b4126 25%, #6d1522 50%, #6d173a 75%, #500037 100%); 
+            background: -webkit-linear-gradient(45deg, #682804 0%,#8b4126 25%,#6d1522 50%,#6d173a 75%,#500037 100%); 
+            background: linear-gradient(45deg, #682804 0%,#8b4126 25%,#6d1522 50%,#6d173a 75%,#500037 100%); 
+            transition: 0.3s ease;
+        }
+    }
+    
+    .contato {
+    
+        padding: $padding;
+        text-align: $centro;
+    
+        h5 {
+            color: $preto;
+            text-shadow: 1px 1px $amarelo_claro;
+            font-weight: $negrito;
+            text-transform: $maiusculo;
+        }
+    
+    }
+    
+    .localizacao {
+    
+        padding: $padding;
+        text-align: $centro;
+    
+        h5 {
+            color: $preto;
+            text-shadow: 1px 1px $amarelo_claro;
+            text-transform: $maiusculo;
+            font-weight: $negrito;
+        }
+
+        iframe {
+            border-radius: $border-radius;
+        }
+    
+    }
+}
