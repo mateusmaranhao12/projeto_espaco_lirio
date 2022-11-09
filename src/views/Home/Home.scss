@@ -9,7 +9,7 @@ body {
     text-align: $centro;
     background: rgb(222,222,222);
     background: linear-gradient(177deg, rgba(222,222,222,1) 0%, rgba(176,176,176,1) 51%, rgba(148,148,148,1) 100%);
-    filter: drop-shadow(16px 3px 10px $preto);
+    filter: $drop-shadow;
     padding: $padding;
 
     img {

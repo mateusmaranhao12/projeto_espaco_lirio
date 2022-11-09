@@ -5,8 +5,14 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 //Carregamento normal das rotas
 
+import Acupuntura from '@/components/Acupuntura/Acupuntura.vue'
+import Auriculoterapia from '@/components/Auriculoterapia/Auriculoterapia.vue'
+import AutoConhecimento from '@/components/AutoConhecimento/AutoConhecimento.vue'
+import ConeChines from '@/components/ConeChines/ConeChines.vue'
 import Home from '@/views/Home/Home.vue'
 import Terapias from '@/views/Terapias/Terapias.vue'
+import QuickMassagem from '@/components/QuickMassagem/QuickMassagem.vue'
+import Ventosas from '@/components/Ventosas/Ventosas.vue'
 
 const routes = [
 
@@ -18,7 +24,15 @@ const routes = [
 
     {
         path: '/terapias',
-        component: Terapias
+        component: Terapias,
+        children: [
+            {path: 'acupuntura', component: Acupuntura},
+            {path: 'auriculoterapia', component: Auriculoterapia},
+            {path: 'auto-conhecimento', component: AutoConhecimento},
+            {path: 'cone-chines', component: ConeChines},
+            {path: 'quick-massagem', component: QuickMassagem},
+            {path: 'ventosas', component: Ventosas}
+        ]
     }
 
 ]

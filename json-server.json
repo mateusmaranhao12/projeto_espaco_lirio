@@ -7,6 +7,15 @@
       {"id": "4", "item": "Ventosas"},
       {"id": "5", "item": "Quick Massagem"},
       {"id": "6", "item": "Curso de Autoconhecimento"}
+  ],
+
+  "terapias": [
+    {"id": "1", "img": "card1.jpg", "titulo": "Acupuntura", "texto": "Preço: R$ 80,00"},
+    {"id": "2", "img": "card2.jpg", "titulo": "Ventosas", "texto": "Preço: R$ 40,00"},
+    {"id": "3", "img": "card3.jpg", "titulo": "Cone Chinês", "texto": "Preço: R$ 40,00"},
+    {"id": "4", "img": "card4.jpg", "titulo": "Quick Massagem", "texto": "Preço: R$ 40,00"},
+    {"id": "5", "img": "card5.jpg", "titulo": "Auriculoterapia", "texto": "Preço: R$ 40,00"},
+    {"id": "6", "img": "card6.jpg", "titulo": "Curso de Autoconhecimento", "texto": "Clique para mais informações"}
   ]
 
 }

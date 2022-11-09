@@ -1,0 +1,21 @@
+@import '../../variaveis scss/variaveis.scss';
+
+.destaque-terapias {
+    background-color: $amarelo_claro;
+    padding: 30px;
+    filter: $drop-shadow;
+    
+    h2 {
+        text-align: $centro;
+        color: $preto;
+        text-transform: $maiusculo;
+        text-shadow: 2px 2px $branco;
+        font-weight: $negrito;
+    }
+}
+
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
