@@ -12,11 +12,21 @@
         </div>
     </section>
     <section class="o-que-temos">
-        <h2>O que nós temos</h2>
+        <h2><i class="fa-solid fa-question"></i> O que nós temos <i class="fa-solid fa-question"></i></h2>
         <div class="container">
             <div class="row">
                 <div v-for="d in dados" :key="d.id" class="col-sm-4">
                     <h5><i class="fa-solid fa-square-check"></i> {{d.item}}</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="horarios">
+        <h2><i class="fa-solid fa-clock"></i> Horários de funcionamento <i class="fa-solid fa-clock"></i></h2>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h5><i class="fa-solid fa-clock"></i> A partir das 7:00, basta só agendar o seu horário</h5>
                 </div>
             </div>
         </div>

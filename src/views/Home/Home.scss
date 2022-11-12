@@ -1,9 +1,5 @@
 @import '../../variaveis scss/variaveis.scss';
 
-body {
-    overflow-x: hidden;
-    -webkit-overflow-x: hidden;
-}
 
 .home {
     text-align: $centro;
@@ -40,7 +36,6 @@ body {
         font-weight: $negrito;
         color: $preto;
         margin-bottom: 3rem;
-        font-size: 60px;
         text-transform: $maiusculo;
         text-shadow: 2px 2px $branco;
     }
@@ -51,5 +46,28 @@ body {
         font-weight: $negrito;
         color: $preto;
         text-shadow: 2px 2px $branco;
+    }
+}
+
+.horarios {
+    background: rgb(222,222,222);
+    background: linear-gradient(177deg, rgba(222,222,222,1) 0%, rgba(1,1,1,1) 0%, rgba(57,57,57,1) 49%, rgba(85,85,85,1) 100%);
+    padding: 4rem;
+
+    h2 {
+        text-align: $centro;
+        font-weight: $negrito;
+        color: $branco;
+        margin-bottom: 3rem;
+        text-transform: $maiusculo;
+        text-shadow: 3px 3px $preto;
+    }
+
+    h5 {
+        margin-bottom: $margins;
+        text-align: $centro;
+        font-weight: $negrito;
+        color: $branco;
+        text-shadow: 2px 2px $preto;
     }
 }

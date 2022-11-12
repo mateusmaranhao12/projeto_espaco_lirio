@@ -18,4 +18,9 @@
     margin: 0 auto; /* Added */
     float: none; /* Added */
     margin-bottom: 10px; /* Added */
+    filter: drop-shadow(3px 3px 10px $preto);
+}
+
+.card:hover {
+    background-color: rgb(243, 243, 243);
 }
