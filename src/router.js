@@ -7,7 +7,6 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 import Acupuntura from '@/components/Acupuntura/Acupuntura.vue'
 import Auriculoterapia from '@/components/Auriculoterapia/Auriculoterapia.vue'
-import AutoConhecimento from '@/components/AutoConhecimento/AutoConhecimento.vue'
 import ConeChines from '@/components/ConeChines/ConeChines.vue'
 import Home from '@/views/Home/Home.vue'
 import Terapias from '@/views/Terapias/Terapias.vue'
@@ -28,7 +27,6 @@ const routes = [
         children: [
             {path: 'acupuntura', component: Acupuntura},
             {path: 'auriculoterapia', component: Auriculoterapia},
-            {path: 'auto-conhecimento', component: AutoConhecimento},
             {path: 'cone-chines', component: ConeChines},
             {path: 'quick-massagem', component: QuickMassagem},
             {path: 'ventosas', component: Ventosas}

@@ -1,0 +1,28 @@
+@import '../../variaveis scss/variaveis.scss';
+
+.destaque {
+    padding: 20px;
+    margin-top: $margins;
+
+    h2 {
+        text-align: $centro;
+        color: $preto;
+        text-transform: $maiusculo;
+        text-shadow: 2px 2px $amarelo_claro;
+        font-weight: $negrito;
+    }
+}
+
+.quick-massagem {
+
+    margin-top: 4rem;
+
+    h3 {
+        text-align: $centro;
+        color: $preto;
+        text-transform: $maiusculo;
+        text-shadow: 2px 2px $amarelo_claro;
+        font-weight: $negrito;
+        margin-bottom: $margins;
+    }
+}
