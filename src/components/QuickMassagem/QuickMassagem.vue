@@ -11,6 +11,7 @@
                     <ul class="list-group">
                         <li v-for="d in dados" :key="d.id" class="list-group-item list-group-item-action">{{d.beneficio}}</li>
                     </ul>
+                    <whats-app />
                 </div>
             </div>
         </div>
@@ -21,13 +22,15 @@
 
     import ApiMixin from '@/mixins/ApiMixins'
     import BotaoExibirMenos from '@/components/BotaoExibirMenos/BotaoExibirMenos.vue'
+    import WhatsApp from '@/components/WhatsApp/WhatsApp.vue'
 
     export default {
 
         name: 'QuickMassagem',
 
         components: {
-            BotaoExibirMenos
+            BotaoExibirMenos,
+            WhatsApp
         },
 
         mixins: [ApiMixin],
