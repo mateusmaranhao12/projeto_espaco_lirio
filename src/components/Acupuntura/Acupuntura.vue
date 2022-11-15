@@ -37,6 +37,7 @@
 
         created() {
             this.getDadosApi('http://localhost:3000/beneficios_acupuntura')
+            this.getDadosApi('https://json-server-vercel-pearl.vercel.app/beneficios_acupuntura')
         },
 
     }

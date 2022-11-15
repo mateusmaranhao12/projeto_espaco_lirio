@@ -34,6 +34,7 @@
 
         created() {
             this.getDadosApi('http://localhost:3000/beneficios_quick_massagem')
+            this.getDadosApi('https://json-server-vercel-pearl.vercel.app/beneficios_quick_massagem')
         },
 
     }

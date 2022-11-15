@@ -37,6 +37,7 @@
 
         created() {
             this.getDadosApi('http://localhost:3000/beneficios_cone_chines')
+            this.getDadosApi('https://json-server-vercel-pearl.vercel.app/beneficios_cone_chines')
         },
 
     }
